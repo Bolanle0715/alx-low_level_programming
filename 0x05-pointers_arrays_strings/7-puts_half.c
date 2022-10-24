@@ -1,9 +1,9 @@
-#include "main.h"
+#include "main. h"
 
 /**
  * puts_half - prints half of a string
  * @str: input
- * return: print
+ * Return: print
  */
 void puts_half(char *str)
 {
@@ -19,6 +19,7 @@ void puts_half(char *str)
 	while (*str != '\0')
 	{
 		_putchar(*str);
+		str++;
 	}
 
 	_putchar('\n');
