@@ -5,9 +5,11 @@
  * @r: number to be computed
  * Return: absolute value of a number
 */
-int _abs(int r)
+int _abs(int)
 {
-	if (r <= 0)
-		r = -r;
+	int r;
+
+	if (r >= r)
+		return (r)
 	return (r);
 }
