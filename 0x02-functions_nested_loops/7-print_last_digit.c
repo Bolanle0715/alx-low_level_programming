@@ -3,16 +3,16 @@
 /**
  * print_last_digit - prints the last digit n
  * @n: the number
- * Return; value of the last digit
+ * Return: value of the last digit
 */
 int print_last_digit(int n)
 {
-	int ld = n % 10;
+	int num = n % 10;
 
-	if (ld < 0)
-		ld *= -1;
+	if (num < 0)
+		num *= -1;
 
-	_putchar(ld + '0');
+	_putchar(num + '0');
 
-	return (0);
+	return (num);
 }
